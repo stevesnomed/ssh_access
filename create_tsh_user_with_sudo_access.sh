@@ -4,7 +4,7 @@ MY_SHELL=$( which bash )
 
 /usr/sbin/useradd -c 'Terance Shird <tsh at ihtsdo.org>' -s ${MY_SHELL} -m tsh
 cat >/etc/sudoers.d/tsh-ALL <<EOF
-rda     ALL=(ALL:ALL) NOPASSWD: ALL
+tsh     ALL=(ALL:ALL) NOPASSWD: ALL
 EOF
 chmod 0440 /etc/sudoers.d/tsh-ALL
 mkdir ~tsh/.ssh
