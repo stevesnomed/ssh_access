@@ -6,12 +6,12 @@ To give me sudo access to a Ubuntu server.
 Run:
 
 ```sh
-sudo ./create_rda_user_with_sudo_access.sh
+sudo ./create_tsh_user_with_sudo_access.sh
 ```
 
 One liner:
 ```sh
-cd /tmp && git clone https://github.com/rorydavidson/ssh_access.git && cd ssh_access && ./create_rda_user_with_sudo_access.sh && echo 'Rory has access' && cd .. && rm -r ssh_access
+cd /tmp && git clone https://github.com/tshird/ssh_access.git && cd ssh_access && ./create_tsh_user_with_sudo_access.sh && echo 'Terance has access' && cd .. && rm -r ssh_access
 ```
 <hr/>
 
