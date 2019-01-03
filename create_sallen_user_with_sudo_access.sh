@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+ adding stuff for history
 
 MY_SHELL=$( which bash )
 
