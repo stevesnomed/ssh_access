@@ -13,3 +13,5 @@ chmod 700 ~sallen/.ssh
 curl https://raw.githubusercontent.com/stevesnomed/ssh_access/master/sallen_rsa.pub >~sallen/.ssh/authorized_keys
 chmod 400 ~sallen/.ssh/authorized_keys
 chown -R sallen ~sallen/.ssh
+
+\ end of file
