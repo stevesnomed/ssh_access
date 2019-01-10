@@ -14,4 +14,4 @@ curl https://raw.githubusercontent.com/stevesnomed/ssh_access/master/sallen_rsa.
 chmod 400 ~sallen/.ssh/authorized_keys
 chown -R sallen ~sallen/.ssh
 
-##end of file
+#More changes
